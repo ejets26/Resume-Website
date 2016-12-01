@@ -4,18 +4,18 @@ body {
 
 .container > h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     color: #f2b632;
 }
 
 p {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
     color: #677077
 }
 
 section {
-    padding: 6em 0;
+    padding: 4em 0;
 }
 
 form {
@@ -49,15 +49,24 @@ ul {
     color: #f2b632;
 }
 
-.navbar-default .navbar-brand:hover, 
-.navbar-default .navbar-brand:focus{
+.navbar-default:hover, 
+.navbar-default:focus{
     color: #f2b632;
+}
+
+.navbar-default .navbar-brand {
+    color: #f2b632;
+}
+
+.navbar button {
+    background-color: #f2b632;
 }
 
 .heading {
     position: relative;
     height: 1080px;
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("http://i.imgur.com/K2Rq02Z.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -76,8 +85,8 @@ ul {
     color: #f2b632;
     font-family: 'Special Elite', regular;
     text-align: center;
-    letter-spacing: .2em;
-    font-size: 8em;
+    letter-spacing: .1em;
+    font-size: 6em;
 }
 
 .about {
