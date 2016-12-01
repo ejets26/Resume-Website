@@ -57,7 +57,7 @@ ul {
 .heading {
     position: relative;
     height: 1080px;
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("/assets/me.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("assets/me.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     
