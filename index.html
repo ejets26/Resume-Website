@@ -4,15 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ethan</title>
-        <link rel="shortcut icon" src="https://github.com/ejets26/Resume-Website/blob/master/assets/icons/favicon.ico" type="image/x-icon"/>
-        <link rel="icon" src="https://github.com/ejets26/Resume-Website/blob/master/assets/icons/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="icon" href="assets/icons/">
         <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/towerOfHanoi.js"></script>
     </head>
     
     <body>
@@ -36,7 +35,7 @@
                     <li><a href="#home">home</a></li>
                     <li><a href="#about">about</a></li>
                     <li><a href="#skills">skills</a></li>
-                    <li><a href="#sort">algorithmic beauty</a></li>
+                    <li><a href="#hanoi-algorithm">algorithmic beauty</a></li>
                     <li><a href="#contact">contact</a></li>
                   </ul>
                 </div>
@@ -63,35 +62,35 @@
             <div class="container">
               <h1>skills</h1>
                   <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                         <img class="center-block" src="http://i.imgur.com/Cxktp0P.png" alt="">
                             <p>c</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                       <img class="center-block" src="http://i.imgur.com/JGIQ3r3.png" alt="">
                               <p>java</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                       <img class="center-block" src="http://i.imgur.com/DKh6wqR.png" alt="">
                               <p>python</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                       <img class="center-block" src="http://i.imgur.com/EblHbWh.png" alt="">
                               <p>mysql</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                       <img class="center-block" src="http://i.imgur.com/WV9iDTN.png" alt="">
                               <p>illustrator</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-4">
                       <img class="center-block" src="http://i.imgur.com/Ldfzxwz.png" alt="">
                               <p>photoshop</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-7">
                       <img class="center-block" src="http://i.imgur.com/EaJWM1d.png" alt="">
                               <p>css3</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-3">
                       <img class="center-block" src="http://i.imgur.com/fevdcAa.png" alt="">
                               <p>html5</p>
                     </div>
@@ -99,9 +98,32 @@
             </div>
           </section>
 
-          <section id="sort" class="sort">
+          <section id="hanoi-algorithm" class="hanoi-algorithm">
             <div class="container">
               <h1>algorithmic beauty</h1>
+               <div class="row row-centered hanoi">
+                    <div class="col-sm-12">
+                       <div class="disc disc-6"></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="disc disc-5"></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="disc disc-4"></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="disc disc-3"></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="disc disc-2"></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="disc disc-1"></div>
+                    </div>
+                    <script>
+                        main();
+                    </script>
+                </div>
             </div>
           </section>
 
