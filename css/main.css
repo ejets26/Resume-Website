@@ -30,6 +30,11 @@ ul {
     list-style-type: none;
 }
 
+.hanoi-header {
+    padding-top: 2%;
+    text-align: center;
+    color: #f2b632;
+}
 
 .navbar a,
 .about p {
