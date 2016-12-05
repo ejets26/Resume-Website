@@ -12,24 +12,15 @@ var main = function() {
 
     var updateTowers = function() {
         for (i = 0; i < towerA.length; i += 1) {
-            $(".disc-" + towerA[i]).css({
-                left: 40,
-                transform: "rotate(0deg)"
-            });
+            $(".disc-" + towerA[i]).addClass('towerA').removeClass('towerB').removeClass('towerC');
         }
 
         for (i = 0; i < towerB.length; i += 1) {
-            $(".disc-" + towerB[i]).css({
-                left: 400,
-                transform: "rotate(360deg)"
-            });
+            $(".disc-" + towerB[i]).removeClass('towerA').addClass('towerB').removeClass('towerC');
         }
 
         for (i = 0; i < towerC.length; i += 1) {
-            $(".disc-" + towerC[i]).css({
-                left: 760,
-                transform: "rotate(720deg)"
-            });
+            $(".disc-" + towerC[i]).removeClass('towerA').removeClass('towerB').addClass('towerC');
         }
     }
 
@@ -66,4 +57,3 @@ var main = function() {
 
     moveThere();
 }
-main();

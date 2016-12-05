@@ -115,64 +115,87 @@ ul {
 .hanoi-algorithm {
     background: #252839;
 }
-
+#hanoi-algorithm div::after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+#hanoi-algorithm > div > div {
+	position: relative;
+	padding-top: 21.367521%;
+}
+#hanoi-algorithm > div > div > div {
+	top: 0;
+	position: absolute;
+}
 .hanoi-algorithm h1 {
     padding-bottom: 1em;
 }
 
 .disc {
-    border-radius: 15%;
-	box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.4);
-    position: absolute;
-	transition: all 0.4s;
+    border-radius: 25%;
+    box-shadow: 1px 1px 1px 3px #fff;
+    /* position: absolute; */
+    transition: all 0.4s;
 }
 
 .disc-6 {
-	background-color: hsl(0, 50%, 50%);
-	height: 250px;
-	width: 250px;
+	background-color: #f2b632;
+	padding-top: 21.367521%;
+	width: 21.367521%;
 }
 
 .disc-5 {
-	background-color: hsl(50, 50%, 50%);
-	height: 200px;
-	margin: 25px;
-	width: 200px;
+	background-color: #f2b632;
+	margin: 2.136752%;
+	width: 17.094017%;
+	padding-top: 17.094017%;
 }
 
 .disc-4 {
-	background-color: hsl(100, 50%, 50%);
-	height: 150px;
-	margin: 50px;
-	width: 150px;
+	background-color: #f2b632;
+	margin: 4.273504%;
+	width: 12.820512%;
+	padding-top: 12.820512%;
 }
 
 .disc-3 {
-	background-color: hsl(150, 50%, 50%);
-	height: 100px;
-	margin: 75px;
-	width: 100px;
+	background-color: #f2b632;
+	margin: 6.410256%;
+	width: 8.547008%;
+	padding-top: 8.547008%;
 }
 
 .disc-2 {
-	background-color: hsl(200, 50%, 50%);
-	height: 50px;
-	margin: 100px;
-	width: 50px;
+	background-color: #f2b632;
+	margin: 8.547008%;
+	width: 4.273504%;
+	padding-top: 4.273504%;
 }
-
 .disc-1 {
-	background-color: hsl(250, 50%, 50%);
-	height: 25px;
-	margin: 112.5px;
-	width: 25px;
+	background-color: #f2b632;
+	margin: 9.615384%;
+	width: 2.136752%;
+	padding-top: 2.136752%;
 }
-
+.towerA {
+    left: 4.273504%;
+    transform: rotate(0deg);
+}
+.towerB {
+    left: 39.316239%;
+    transform: rotate(360deg);
+}
+.towerC {
+    left: 74.358974%;
+    transform: rotate(720deg);
+}
 .contact .form-control:focus {
     border-color: #fff;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1), 0 0 8px rgba(242, 182, 50, 1);
 }
-
 .contact .btn {
     padding: .5rem 1.75rem;
     background: #252839;
