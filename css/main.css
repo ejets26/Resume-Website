@@ -136,7 +136,7 @@ ul {
 
 .disc {
     border-radius: 25%;
-    box-shadow: 1px 1px 1px 3px #fff;
+    box-shadow: 1px 1px 1px 2px #fff;
     /* position: absolute; */
     transition: all 0.4s;
 }
@@ -212,5 +212,10 @@ ul {
 footer {
     background: #f2b632;
     padding: 8em 0;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
 }
 
